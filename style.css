@@ -249,6 +249,17 @@ template {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+.box:hover {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* nav */
 .mainNav {
   display: flex;
@@ -304,6 +315,16 @@ a {
 
 footer {
   text-align: center;
+}
+
+.cover {
+  width: 30rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
